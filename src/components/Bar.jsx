@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-const SkillBar = ({ title, percent, delay }) => {
+const Bar = ({ title, percent, delay }) => {
   return (
     <div className="w-full mb-6">
       <div //Top
@@ -29,4 +29,4 @@ const SkillBar = ({ title, percent, delay }) => {
   );
 };
 
-export default SkillBar;
+export default Bar;
