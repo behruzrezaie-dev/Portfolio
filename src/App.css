@@ -1,0 +1,55 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.link {
+  @apply cursor-pointer font-bold text-[#24222D] dark:text-gray-300 px-3 py-2 rounded-md transition-all duration-300 ease-in-out;
+}
+
+.link:hover {
+  @apply bg-[#24222D] text-white dark:bg-[#FCDB74] dark:text-[#24222D];
+  transform: translateY(-2px);
+}
+.social-icon {
+  @apply p-3 text-xl rounded-full cursor-pointer transition-all duration-300 text-[#24222D] dark:text-gray-300;
+}
+
+.social-icon:hover {
+  @apply bg-[#24222D] text-white dark:bg-[#FCDB74] dark:text-[#24222D];
+  transform: translateY(-2px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(88, 75, 140, 0.3);
+}
+.close-icon {
+  @apply text-2xl cursor-pointer p-2 rounded-full transition-all duration-500 text-[#24222D];
+}
+.close-icon:hover {
+  @apply bg-[#FCDB74];
+}
+.link-m {
+  @apply relative flex items-center justify-between w-full px-3 py-2 text-sm font-medium text-[#24222D] dark:text-gray-300 rounded-md cursor-pointer transition-all duration-200 ease-in-out;
+}
+
+.link-m:hover {
+  background-color: rgba(49, 19, 182, 0.09);
+  transform: translateX(3px);
+}
+
+.link-m:active {
+  transform: translateX(1px);
+}
+
+.link-m::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 6px;
+  height: 1px;
+  background: rgba(49, 27, 136, 0.8);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.link-m:hover::after {
+  transform: scaleX(1);
+}
