@@ -13,7 +13,7 @@ const About = () => {
         </h1>
 
         <div className="relative z-10  px-6 sm:px-8 lg:px-12 pb-5 sm:pb-10  pt-24 sm:pt-32 lg:pt-44 gap-5 grid grid-cols-1 lg:grid-cols-2">
-          <div className="py-10 min-h-[461px] max-w-full lg:max-w-[625px] mx-auto bg-[url(./images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
+          <div className="py-10 min-h-[461px] max-w-full lg:max-w-[625px] mx-auto bg-[url(/images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
             <div className="flex flex-col gap-10 pl-4 ">
               <p className="font-bold text-xs tracking-[18%] text-[#FCDB74]">
                 EDUCATION
@@ -58,7 +58,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="py-10 min-h-[461px]  max-w-full mx-auto lg:max-w-[625px] bg-[url(./images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
+          <div className="py-10 min-h-[461px]  max-w-full mx-auto lg:max-w-[625px] bg-[url(/images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
             <div className="flex flex-col gap-10 pl-4 ">
               <p className="font-bold text-xs tracking-[18%] text-[#FCDB74]">
                 EXPERIENCE
