@@ -19,7 +19,7 @@ const Hero = () => {
           className="flex flex-col items-center text-center md:hidden relative z-10"
         >
           <img
-            src="./images/profile.png"
+            src="./images/profile.webp"
             className="w-56 "
             alt="Behruz Rezaie"
             loading="eager"
@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
 
           <img
-            src="./images/profile.png"
+            src="./images/profile.webp"
             alt="Behruz Rezaie"
             loading="eager"
             fetchPriority="high"
