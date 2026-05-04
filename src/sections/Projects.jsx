@@ -23,6 +23,7 @@ const Projects = () => {
         >
           <motion.img
             src="./images/me-d.png"
+            alt="Dark Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl dark:hidden "
             variants={{
               rest: { filter: "blur(0px)" },
@@ -31,6 +32,7 @@ const Projects = () => {
           />
           <motion.img
             src="./images/me-l.png"
+            alt="Light Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl hidden dark:block "
             variants={{
               rest: { filter: "blur(0px)" },
@@ -69,6 +71,7 @@ const Projects = () => {
         >
           <motion.img
             src="./images/guess1-img.png"
+            alt=" Guess Number Game Photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{
               rest: { filter: "blur(0px)" },
@@ -107,6 +110,7 @@ const Projects = () => {
         >
           <motion.img
             src="./images/login2-img.png"
+            alt=" Loin Page Photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{
               rest: { filter: "blur(0px)" },
@@ -145,6 +149,7 @@ const Projects = () => {
         >
           <motion.img
             src="./images/calc-img.png"
+            alt=" Calculator photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{
               rest: { filter: "blur(0px)" },

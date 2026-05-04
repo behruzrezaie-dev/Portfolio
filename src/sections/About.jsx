@@ -65,7 +65,7 @@ const About = () => {
               </p>
               <div>
                 <div className="flex gap-2 ">
-                  <img src="./icons/badge-2.svg" alt="Tello Badge" />
+                  <img src="./icons/badge-2.svg" alt="yellow Badge" />
                   <h2 className="font-bold text-sm md:text-base text-white dark:text-white leading-relaxed">
                     Proficient Frontend Web Developer
                   </h2>
@@ -82,7 +82,7 @@ const About = () => {
                 </p>
 
                 <div className="flex gap-2 mt-10 ">
-                  <img src="./icons/badge-2.svg" alt="Tello Badge" />
+                  <img src="./icons/badge-2.svg" alt="yellow Badge" />
                   <h2 className="font-bold text-base text-white dark:text-white leading-relaxed">
                     Itex Service
                   </h2>

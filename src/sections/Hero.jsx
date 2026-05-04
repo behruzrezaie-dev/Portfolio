@@ -18,10 +18,14 @@ const Hero = () => {
         <div // MOBILE
           className="flex flex-col items-center text-center md:hidden relative z-10"
         >
-          <img src="./images/me.png" className="w-56 " />
+          <img src="./images/me.png" className="w-56 " alt="A picture of me" />
 
           <div className="flex items-center gap-2 mb-2">
-            <img src="./icons/badge-1.svg" className="w-3 h-3" />
+            <img
+              src="./icons/badge-1.svg"
+              className="w-3 h-3"
+              alt="purple badge"
+            />
             <p className="text-[11px] tracking-widest font-bold text-[#584B8C] dark:text-white">
               AVAILABLE FOR WORK
             </p>
@@ -48,7 +52,11 @@ const Hero = () => {
             className="flex flex-col justify-end gap-4 lg:gap-0   "
           >
             <div className="flex items-center gap-2 ">
-              <img src="./icons/badge-1.svg" className="w-3 h-3 " />
+              <img
+                src="./icons/badge-1.svg"
+                className="w-3 h-3 "
+                alt="purple badge"
+              />
               <p className="text-[10px] tracking-widest font-bold text-[#584B8C] dark:text-white">
                 AVAILABLE FOR WORK
               </p>
@@ -66,6 +74,7 @@ const Hero = () => {
 
           <img
             src="./images/me.png"
+            alt="A picture of me"
             className="w-80 h-[360px] md:w-[380px] md:h-[420px] lg:w-[460px] lg:h-[500px] xl:w-[520px] xl:h-[560px] drop-shadow-2xl"
           />
 
