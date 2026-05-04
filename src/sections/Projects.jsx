@@ -22,7 +22,7 @@ const Projects = () => {
           whileHover="hover"
         >
           <motion.img
-            src="./images/dark-portfolio-img.png"
+            src="dark-portfolio-img.png"
             loading="lazy"
             alt="Dark Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl dark:hidden "
@@ -32,7 +32,7 @@ const Projects = () => {
             }}
           />
           <motion.img
-            src="./images/light-portfolio-img.png"
+            src="light-portfolio-img.png"
             loading="lazy"
             alt="Light Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl hidden dark:block "
@@ -72,7 +72,7 @@ const Projects = () => {
           whileHover="hover"
         >
           <motion.img
-            src="./images/guess1-img.png"
+            src="guess1-img.png"
             alt=" Guess Number Game Photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{
@@ -111,7 +111,7 @@ const Projects = () => {
           whileHover="hover"
         >
           <motion.img
-            src="./images/login2-img.png"
+            src="login2-img.png"
             alt=" Loin Page Photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{
@@ -150,7 +150,7 @@ const Projects = () => {
           whileHover="hover"
         >
           <motion.img
-            src="./images/calc-img.png"
+            src="calc-img.png"
             alt=" Calculator photo"
             className="h-[320px] md:h-[420px] lg:h-[480px] object-cover rounded-2xl w-full"
             variants={{

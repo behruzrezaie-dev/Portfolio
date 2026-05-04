@@ -13,14 +13,14 @@ const About = () => {
         </h1>
 
         <div className="relative z-10  px-6 sm:px-8 lg:px-12 pb-5 sm:pb-10  pt-24 sm:pt-32 lg:pt-44 gap-5 grid grid-cols-1 lg:grid-cols-2">
-          <div className="py-10 min-h-[461px] max-w-full lg:max-w-[625px] mx-auto bg-[url(/images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
+          <div className="py-10 min-h-[461px] max-w-full lg:max-w-[625px] mx-auto bg-[url(bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
             <div className="flex flex-col gap-10 pl-4 ">
               <p className="font-bold text-xs tracking-[18%] text-[#FCDB74]">
                 EDUCATION
               </p>
               <div>
                 <div className="flex gap-2 ">
-                  <img src="./icons/badge-2.svg" alt="Yello Badge" />
+                  <img src="./badge-2.svg" alt="Yello Badge" />
                   <h2 className="font-bold text-sm md:text-base text-white dark:text-[#FCDB74]leading-relaxed">
                     Recent Graduate School / Grade A
                   </h2>
@@ -38,7 +38,7 @@ const About = () => {
                 </p>
 
                 <div className="flex gap-2 mt-10 ">
-                  <img src="./icons/badge-2.svg" alt="Yello Badge" />
+                  <img src="./badge-2.svg" alt="Yello Badge" />
                   <h2 className="font-bold text-sm md:text-base text-white dark:text-white leading-relaxed">
                     Recent Graduate English Course / Grade A
                   </h2>
@@ -58,14 +58,14 @@ const About = () => {
             </div>
           </div>
 
-          <div className="py-10 min-h-[461px]  max-w-full mx-auto lg:max-w-[625px] bg-[url(/images/bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
+          <div className="py-10 min-h-[461px]  max-w-full mx-auto lg:max-w-[625px] bg-[url(bg-img-1.svg)]  bg-cover bg-center rounded-2xl  bg-[#FCDB74] dark:bg-[#24222D]">
             <div className="flex flex-col gap-10 pl-4 ">
               <p className="font-bold text-xs tracking-[18%] text-[#FCDB74]">
                 EXPERIENCE
               </p>
               <div>
                 <div className="flex gap-2 ">
-                  <img src="./icons/badge-2.svg" alt="yellow Badge" />
+                  <img src="./badge-2.svg" alt="yellow Badge" />
                   <h2 className="font-bold text-sm md:text-base text-white dark:text-white leading-relaxed">
                     Proficient Frontend Web Developer
                   </h2>
@@ -82,7 +82,7 @@ const About = () => {
                 </p>
 
                 <div className="flex gap-2 mt-10 ">
-                  <img src="./icons/badge-2.svg" alt="yellow Badge" />
+                  <img src="./badge-2.svg" alt="yellow Badge" />
                   <h2 className="font-bold text-base text-white dark:text-white leading-relaxed">
                     Itex Service
                   </h2>

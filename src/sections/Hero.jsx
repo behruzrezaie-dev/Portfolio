@@ -19,7 +19,7 @@ const Hero = () => {
           className="flex flex-col items-center text-center md:hidden relative z-10"
         >
           <img
-            src="./images/profile.webp"
+            src="profile.webp"
             className="w-56 "
             alt="Behruz Rezaie"
             loading="eager"
@@ -29,11 +29,7 @@ const Hero = () => {
           />
 
           <div className="flex items-center gap-2 mb-2">
-            <img
-              src="./icons/badge-1.svg"
-              className="w-3 h-3"
-              alt="purple badge"
-            />
+            <img src="badge-1.svg" className="w-3 h-3" alt="purple badge" />
             <p className="text-[11px] tracking-widest font-bold text-[#584B8C] dark:text-white">
               AVAILABLE FOR WORK
             </p>
@@ -60,11 +56,7 @@ const Hero = () => {
             className="flex flex-col justify-end gap-4 lg:gap-0   "
           >
             <div className="flex items-center gap-2 ">
-              <img
-                src="./icons/badge-1.svg"
-                className="w-3 h-3 "
-                alt="purple badge"
-              />
+              <img src="badge-1.svg" className="w-3 h-3 " alt="purple badge" />
               <p className="text-[10px] tracking-widest font-bold text-[#584B8C] dark:text-white">
                 AVAILABLE FOR WORK
               </p>
@@ -81,7 +73,7 @@ const Hero = () => {
           </div>
 
           <img
-            src="./images/profile.webp"
+            src="profile.webp"
             alt="Behruz Rezaie"
             loading="eager"
             fetchPriority="high"
