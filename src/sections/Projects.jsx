@@ -22,7 +22,8 @@ const Projects = () => {
           whileHover="hover"
         >
           <motion.img
-            src="./images/me-d.png"
+            src="./images/dark-portfolio-img.png"
+            loading="lazy"
             alt="Dark Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl dark:hidden "
             variants={{
@@ -31,7 +32,8 @@ const Projects = () => {
             }}
           />
           <motion.img
-            src="./images/me-l.png"
+            src="./images/light-portfolio-img.png"
+            loading="lazy"
             alt="Light Portfolio Photo"
             className=" h-[320px] md:h-[420px] lg:h-[480px]  object-cover rounded-2xl hidden dark:block "
             variants={{

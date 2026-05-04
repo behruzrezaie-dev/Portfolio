@@ -64,6 +64,7 @@ const Contact = () => {
             <img
               src="./images/contact-img.svg"
               alt="contact image"
+              loading="lazy"
               className="  w-full   "
             />
           </div>

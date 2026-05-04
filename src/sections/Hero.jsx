@@ -18,7 +18,15 @@ const Hero = () => {
         <div // MOBILE
           className="flex flex-col items-center text-center md:hidden relative z-10"
         >
-          <img src="./images/me.png" className="w-56 " alt="A picture of me" />
+          <img
+            src="./images/profile.png"
+            className="w-56 "
+            alt="Behruz Rezaie"
+            loading="eager"
+            fetchPriority="high"
+            width="300"
+            height="300"
+          />
 
           <div className="flex items-center gap-2 mb-2">
             <img
@@ -73,8 +81,12 @@ const Hero = () => {
           </div>
 
           <img
-            src="./images/me.png"
-            alt="A picture of me"
+            src="./images/profile.png"
+            alt="Behruz Rezaie"
+            loading="eager"
+            fetchPriority="high"
+            width="520"
+            height="560"
             className="w-80 h-[360px] md:w-[380px] md:h-[420px] lg:w-[460px] lg:h-[500px] xl:w-[520px] xl:h-[560px] drop-shadow-2xl"
           />
 
