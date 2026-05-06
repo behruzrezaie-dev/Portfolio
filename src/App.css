@@ -1,6 +1,11 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
 .link {
   @apply cursor-pointer font-bold text-[#24222D] dark:text-gray-300 px-3 py-2 rounded-md transition-all duration-300 ease-in-out;
 }
