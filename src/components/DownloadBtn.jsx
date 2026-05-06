@@ -1,20 +1,47 @@
 import React from "react";
 import { GrLinkNext } from "react-icons/gr";
-
+import { motion } from "framer-motion";
 const DownloadBtn = () => {
   return (
-    <a href="/images/cv.pdf" download="Behruz-rezaie-Cv.pdf">
-      <div className="group relative bg-[#24222D] inline-flex items-center justify-center px-4 py-2  text-sm font-semibold text-[#FCDB74] border border-[#FCDB74]  rounded-full overflow-hidden cursor-pointer">
-        <span className="absolute inset-0 bg-[#584B8C] dark:bg-[#FCDB74] scale-x-0 origin-left transition-transform duration-400 group-hover:scale-x-100"></span>
-        <span className="relative flex items-center gap-2 z-10 group-hover:text-[#FCDB74] hover:dark:text-[#24222D]">
-          <GrLinkNext className="text-base opacity-0 -translate-x-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
-          <span className="  group-hover:text-[#FCDB74] hover:dark:text-[#24222D]  transition-all duration-300">
-            Download CV
-          </span>
-          <GrLinkNext className="text-base transition-all duration-300 group-hover:opacity-0 group-hover:translate-x-3 " />
-        </span>
-      </div>
-    </a>
+    <motion.a
+      href="images/cv.pdf"
+      download="Behruz-rezaie-Cv.pdf"
+      initial="rest"
+      whileHover="hover"
+      animate="rest"
+      className={` relative overflow-hidden cursor-pointer h-12 w-[225px] px-4 hover:px-2 gap-2 flex  items-center outline-none border-none  bg-[#22242d] dark:bg-[#FCDB74]   text-[#FCDB74] dark:text-[#22242d] dark:hover:text-white  text-sm md:text-base font-semibold rounded-full `}
+    >
+      <motion.div
+        variants={{
+          rest: { scaleX: 0 },
+          hover: { scaleX: 1 },
+        }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+        className="absolute inset-0 origin-left bg-[#584B8C]   rounded-full z-0 "
+      />
+      <motion.img
+        variants={{
+          rest: { opacity: 1, x: 0 },
+          hover: { opacity: 0, x: 30 },
+        }}
+        transition={{ duration: 0.25 }}
+        src="light-arrow.svg"
+        alt="arrow"
+        className="z-10 "
+      />
+      <span className="z-10 ">Download CV</span>
+
+      <motion.img
+        variants={{
+          rest: { opacity: 0, x: -30 },
+          hover: { opacity: 1, x: 0 },
+        }}
+        transition={{ duration: 0.25 }}
+        src="dark-arrow.svg"
+        alt="arrow"
+        className="z-10  "
+      />
+    </motion.a>
   );
 };
 
