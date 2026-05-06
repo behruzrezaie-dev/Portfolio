@@ -44,9 +44,9 @@ const Hero = () => {
             creating seamless digital experiences that connect and convert.
           </p>
 
-          {/* <div className="mt-5">
+          <div className="mt-5">
             <DownloadBtn />
-          </div> */}
+          </div>
         </div>
 
         <div //  DESKTOP
