@@ -3,7 +3,7 @@ import DownloadBtn from "../components/DownloadBtn";
 const Hero = () => {
   return (
     <section
-      id="/"
+      id="hero"
       className="min-h-screen bg-[#FCDB74] dark:bg-[#24222D] relative overflow-hidden flex items-center"
     >
       <h1 className="md:hidden absolute top-16  left-1/2 -translate-x-1/2 text-5xl  font-extrabold text-black/10 dark:text-white/10 text-center leading-none">
@@ -44,9 +44,9 @@ const Hero = () => {
             creating seamless digital experiences that connect and convert.
           </p>
 
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <DownloadBtn />
-          </div>
+          </div> */}
         </div>
 
         <div //  DESKTOP

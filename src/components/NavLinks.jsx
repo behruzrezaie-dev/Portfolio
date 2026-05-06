@@ -6,7 +6,7 @@ const NavLinks = () => {
       <nav>
         <ul className=" lg:gap-4 items-center hidden md:flex ">
           <li>
-            <a href="/" className="link ">
+            <a href="#hero" className="link ">
               Home
             </a>
           </li>
