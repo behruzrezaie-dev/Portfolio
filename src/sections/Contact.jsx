@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
+import { motion } from "framer-motion";
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
@@ -138,14 +139,45 @@ const Contact = () => {
                   className="min-h-36 resize-none px-4 py-3 text-sm md:text-base font-normal rounded-md outline-none"
                 />
               </div>
-              <button
+              <motion.button
                 type="submit"
                 disabled={loading}
-                className={`  cursor-pointer h-10 w-28 flex gap-2 bg-white hover:text-[#584B8C] dark:hover:text-[#FCDB74] text-sm md:text-base font-semibold px-6 py-2 rounded-full ${loading ? "opacity-60 cursor-not-allowed" : ""}`}
+                initial="rest"
+                whileHover="hover"
+                animate="rest"
+                className={` relative overflow-hidden cursor-pointer h-12 w-32 px-4 hover:px-0 gap-2 flex  items-center outline-none border-none  bg-white hover:text-[#FCDB74] dark:hover:text-[#22242d] text-sm md:text-base font-semibold rounded-full ${loading ? "opacity-60 cursor-not-allowed" : ""}`}
               >
-                <img src="./icons/arrow-right.svg" alt="right arrow" />
-                Send
-              </button>
+                <motion.div
+                  variants={{
+                    rest: { scaleX: 0 },
+                    hover: { scaleX: 1 },
+                  }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  className="absolute inset-0 origin-left bg-[#22242d] dark:bg-[#FCDB74]  rounded-full z-0 "
+                />
+                <motion.img
+                  variants={{
+                    rest: { opacity: 1, x: 0 },
+                    hover: { opacity: 0, x: 30 },
+                  }}
+                  transition={{ duration: 0.25 }}
+                  src="dark-arrow.svg"
+                  alt="arrow"
+                  className="z-10 "
+                />
+                <span className="z-10 ">Send</span>
+
+                <motion.img
+                  variants={{
+                    rest: { opacity: 0, x: -30 },
+                    hover: { opacity: 1, x: 0 },
+                  }}
+                  transition={{ duration: 0.25 }}
+                  src="light-arrow.svg"
+                  alt="arrow"
+                  className="z-10  "
+                />
+              </motion.button>
             </div>
           </form>
         </div>
