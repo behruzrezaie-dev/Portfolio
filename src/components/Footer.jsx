@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="w-full flex items-center justify-between lg:gap-10  px-5   py-2  bg-[#FCDB74] dark:bg-[#24222D]">
         <span className=" text-sm md:text-lg lg:text-xl x font-semibold tracking-wide  text-[#24222D] dark:text-gray-300">
-          &copy; Behruz 2026
+          &copy; 2026 Behruz
         </span>
 
         <div className="flex sm:gap-1 md:gap-0">
